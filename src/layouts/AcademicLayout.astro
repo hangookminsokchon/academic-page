@@ -1,0 +1,30 @@
+---
+import "../styles/academic.css";
+
+type Props = {
+  title: string;
+};
+
+const { title } = Astro.props;
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{title}</title>
+  </head>
+  <body>
+    <div class="page">
+      <div class="nav small">
+        <a href="/">Home</a>
+        <a href="/research/">Research</a>
+        <a href="/publications/">Publications</a>
+        <a href="/notes/">Notes</a>
+        <a href="/cv/">CV</a>
+      </div>
+      <slot />
+    </div>
+  </body>
+</html>
