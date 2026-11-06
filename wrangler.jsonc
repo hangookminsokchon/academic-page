@@ -1,6 +1,6 @@
 {
   "$schema": "node_modules/wrangler/config-schema.json",
-  "name": "academic-page",
+  "name": "yoolkyu-park",
   "compatibility_date": "2026-04-12",
   "observability": {
     "enabled": true
