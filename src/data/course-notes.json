@@ -1,0 +1,452 @@
+[
+  {
+    "id": "math-3351",
+    "code": "MATH 3351",
+    "title": "Advanced Calculus",
+    "pdf": "/notes/math-3351-advanced-calculus.pdf",
+    "pages": 111,
+    "chapters": [
+      {
+        "number": 1,
+        "title": "Euclidean space and differentiation",
+        "page": 5,
+        "pageLabel": "1"
+      },
+      {
+        "number": 2,
+        "title": "Patches, manifolds, and constrained extrema",
+        "page": 15,
+        "pageLabel": "11"
+      },
+      {
+        "number": 3,
+        "title": "Taylor approximation and critical points",
+        "page": 22,
+        "pageLabel": "18"
+      },
+      {
+        "number": 4,
+        "title": "Fixed points and Newton's method",
+        "page": 33,
+        "pageLabel": "29"
+      },
+      {
+        "number": 5,
+        "title": "Area, signed integrals, and the fundamental theorem",
+        "page": 38,
+        "pageLabel": "34"
+      },
+      {
+        "number": 6,
+        "title": "Content, step functions, and multiple integrals",
+        "page": 42,
+        "pageLabel": "38"
+      },
+      {
+        "number": 7,
+        "title": "Iterated integrals and parameter integrals",
+        "page": 48,
+        "pageLabel": "44"
+      },
+      {
+        "number": 8,
+        "title": "Change of variables and Jacobians",
+        "page": 54,
+        "pageLabel": "50"
+      },
+      {
+        "number": 9,
+        "title": "Improper integrals and unbounded regions",
+        "page": 61,
+        "pageLabel": "57"
+      },
+      {
+        "number": 10,
+        "title": "Paths, arc length, and line integrals",
+        "page": 67,
+        "pageLabel": "63"
+      },
+      {
+        "number": 11,
+        "title": "Conservative fields and local potentials",
+        "page": 74,
+        "pageLabel": "70"
+      },
+      {
+        "number": 12,
+        "title": "Green's theorem and oriented regions",
+        "page": 79,
+        "pageLabel": "75"
+      },
+      {
+        "number": 13,
+        "title": "Differential forms and the exterior derivative",
+        "page": 86,
+        "pageLabel": "82"
+      },
+      {
+        "number": 14,
+        "title": "Pullbacks, surface integrals, and orientation",
+        "page": 94,
+        "pageLabel": "90"
+      },
+      {
+        "number": 15,
+        "title": "Boundary orientation and generalized Stokes",
+        "page": 99,
+        "pageLabel": "95"
+      }
+    ]
+  },
+  {
+    "id": "math-550",
+    "code": "MATH 550",
+    "title": "Topology",
+    "pdf": "/notes/math-550-topology.pdf",
+    "pages": 62,
+    "chapters": [
+      {
+        "number": 1,
+        "title": "Sets, Relations, and Countability",
+        "page": 4,
+        "pageLabel": "1"
+      },
+      {
+        "number": 2,
+        "title": "Topologies and Bases",
+        "page": 9,
+        "pageLabel": "6"
+      },
+      {
+        "number": 3,
+        "title": "Order, Product, and Subspace Topologies",
+        "page": 13,
+        "pageLabel": "10"
+      },
+      {
+        "number": 4,
+        "title": "Closed Sets and Limit Points",
+        "page": 16,
+        "pageLabel": "13"
+      },
+      {
+        "number": 5,
+        "title": "Continuous Functions and Homeomorphisms",
+        "page": 21,
+        "pageLabel": "18"
+      },
+      {
+        "number": 6,
+        "title": "Products and Uniform Topologies",
+        "page": 30,
+        "pageLabel": "27"
+      },
+      {
+        "number": 7,
+        "title": "Metric Spaces and Uniform Convergence",
+        "page": 37,
+        "pageLabel": "34"
+      },
+      {
+        "number": 8,
+        "title": "Quotient Spaces",
+        "page": 42,
+        "pageLabel": "39"
+      },
+      {
+        "number": 9,
+        "title": "Connectedness and the Intermediate Value Theorem",
+        "page": 46,
+        "pageLabel": "43"
+      },
+      {
+        "number": 10,
+        "title": "Compactness and Products",
+        "page": 50,
+        "pageLabel": "47"
+      },
+      {
+        "number": 11,
+        "title": "Countability and Separation Axioms",
+        "page": 54,
+        "pageLabel": "51"
+      },
+      {
+        "number": 12,
+        "title": "Urysohn's Lemma and Metrization",
+        "page": 59,
+        "pageLabel": "56"
+      }
+    ]
+  },
+  {
+    "id": "math-4334",
+    "code": "MATH 4334",
+    "title": "Numerical Analysis",
+    "pdf": "/notes/math-4334-numerical-analysis.pdf",
+    "pages": 64,
+    "chapters": [
+      {
+        "number": 1,
+        "title": "Approximation and Taylor's Theorem",
+        "page": 4,
+        "pageLabel": "1"
+      },
+      {
+        "number": 2,
+        "title": "Number Representation and Floating-Point Arithmetic",
+        "page": 7,
+        "pageLabel": "4"
+      },
+      {
+        "number": 3,
+        "title": "Nonlinear Equations",
+        "page": 14,
+        "pageLabel": "11"
+      },
+      {
+        "number": 4,
+        "title": "Polynomial Interpolation",
+        "page": 25,
+        "pageLabel": "22"
+      },
+      {
+        "number": 5,
+        "title": "Numerical Integration",
+        "page": 28,
+        "pageLabel": "25"
+      },
+      {
+        "number": 6,
+        "title": "Numerical Differentiation",
+        "page": 37,
+        "pageLabel": "34"
+      },
+      {
+        "number": 7,
+        "title": "Initial Value Problems and Euler's Method",
+        "page": 39,
+        "pageLabel": "36"
+      },
+      {
+        "number": 8,
+        "title": "Direct Methods for Linear Systems",
+        "page": 41,
+        "pageLabel": "38"
+      },
+      {
+        "number": 9,
+        "title": "Vector and Matrix Norms and Conditioning",
+        "page": 48,
+        "pageLabel": "45"
+      },
+      {
+        "number": 10,
+        "title": "Iterative Methods for Linear Systems",
+        "page": 55,
+        "pageLabel": "52"
+      },
+      {
+        "number": 11,
+        "title": "Eigenvalue Algorithms",
+        "page": 59,
+        "pageLabel": "56"
+      },
+      {
+        "number": 12,
+        "title": "Singular Value Decomposition",
+        "page": 62,
+        "pageLabel": "59"
+      }
+    ]
+  },
+  {
+    "id": "stat-4355",
+    "code": "STAT 4355",
+    "title": "Linear Regression",
+    "pdf": "/notes/stat-4355-linear-regression.pdf",
+    "pages": 35,
+    "chapters": [
+      {
+        "number": 1,
+        "title": "Simple Linear Regression and Least Squares",
+        "page": 3,
+        "pageLabel": "1"
+      },
+      {
+        "number": 2,
+        "title": "Sampling Properties and Variance Estimation",
+        "page": 8,
+        "pageLabel": "6"
+      },
+      {
+        "number": 3,
+        "title": "Hypothesis Testing in Simple Regression",
+        "page": 13,
+        "pageLabel": "11"
+      },
+      {
+        "number": 4,
+        "title": "Confidence Intervals, Prediction, and Analysis of Variance",
+        "page": 18,
+        "pageLabel": "16"
+      },
+      {
+        "number": 5,
+        "title": "Maximum Likelihood Estimation",
+        "page": 26,
+        "pageLabel": "24"
+      },
+      {
+        "number": 6,
+        "title": "Matrix Formulation and Geometry of Linear Regression",
+        "page": 29,
+        "pageLabel": "27"
+      }
+    ]
+  },
+  {
+    "id": "578",
+    "code": "578",
+    "title": "Abstract Algebra",
+    "pdf": "/notes/578-abstract-algebra.pdf",
+    "pages": 48,
+    "chapters": [
+      {
+        "number": 1,
+        "title": "Binary Operations and Groups",
+        "page": 4,
+        "pageLabel": "1"
+      },
+      {
+        "number": 2,
+        "title": "Subgroups and Cyclic Groups",
+        "page": 10,
+        "pageLabel": "7"
+      },
+      {
+        "number": 3,
+        "title": "Homomorphisms and Cyclic Images",
+        "page": 14,
+        "pageLabel": "11"
+      },
+      {
+        "number": 4,
+        "title": "Permutation Groups and Parity",
+        "page": 16,
+        "pageLabel": "13"
+      },
+      {
+        "number": 5,
+        "title": "Direct Products and Finitely Generated Abelian Groups",
+        "page": 20,
+        "pageLabel": "17"
+      },
+      {
+        "number": 6,
+        "title": "Cosets, Quotients, and Normal Subgroups",
+        "page": 26,
+        "pageLabel": "23"
+      },
+      {
+        "number": 7,
+        "title": "The First Examples of Rings",
+        "page": 36,
+        "pageLabel": "33"
+      },
+      {
+        "number": 8,
+        "title": "Congruences and Polynomial Arithmetic",
+        "page": 39,
+        "pageLabel": "36"
+      },
+      {
+        "number": 9,
+        "title": "Ideals and Quotient Rings",
+        "page": 46,
+        "pageLabel": "43"
+      }
+    ]
+  },
+  {
+    "id": "stat-4360",
+    "code": "STAT 4360",
+    "title": "Statistical Learning",
+    "pdf": "/notes/stat-4360-statistical-learning.pdf",
+    "pages": 71,
+    "chapters": [
+      {
+        "number": 1,
+        "title": "Statistical Learning and the Regression Function",
+        "page": 5,
+        "pageLabel": "1"
+      },
+      {
+        "number": 2,
+        "title": "Learning Error, Bias–Variance, and Nearest Neighbors",
+        "page": 7,
+        "pageLabel": "3"
+      },
+      {
+        "number": 3,
+        "title": "Linear Regression: Estimation and Inference",
+        "page": 12,
+        "pageLabel": "8"
+      },
+      {
+        "number": 4,
+        "title": "Generative Classification and Discriminant Analysis",
+        "page": 21,
+        "pageLabel": "17"
+      },
+      {
+        "number": 5,
+        "title": "Logistic Regression and Direct Probability Models",
+        "page": 31,
+        "pageLabel": "27"
+      },
+      {
+        "number": 6,
+        "title": "Generalized Linear Models and Likelihood Inference",
+        "page": 36,
+        "pageLabel": "32"
+      },
+      {
+        "number": 7,
+        "title": "Cross-Validation and Prediction Error",
+        "page": 41,
+        "pageLabel": "37"
+      },
+      {
+        "number": 8,
+        "title": "Model Selection, Regularization, and Dimension Reduction",
+        "page": 45,
+        "pageLabel": "41"
+      },
+      {
+        "number": 9,
+        "title": "Beyond Linearity",
+        "page": 54,
+        "pageLabel": "50"
+      },
+      {
+        "number": 10,
+        "title": "Tree-Based Models",
+        "page": 59,
+        "pageLabel": "55"
+      },
+      {
+        "number": 11,
+        "title": "Maximum-Margin Classification",
+        "page": 62,
+        "pageLabel": "58"
+      },
+      {
+        "number": 12,
+        "title": "Clustering",
+        "page": 65,
+        "pageLabel": "61"
+      }
+    ]
+  }
+]

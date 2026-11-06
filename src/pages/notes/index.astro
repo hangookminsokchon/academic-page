@@ -1,24 +1,57 @@
 ---
 import AcademicLayout from "../../layouts/AcademicLayout.astro";
+import courses from "../../data/course-notes.json";
 ---
 
 <AcademicLayout title="Yoolkyu Park | Notes">
   <h1>Notes</h1>
 
   <p>
-    This page will contain short technical notes, reading notes, and brief expository
-    writing. The material below is placeholder text for now.
+    Lecture notes organized by course. Each course is available as one complete PDF;
+    chapter links open at the corresponding page.
   </p>
 
-  <ul>
-    <li>Working notes on topology in tissue architecture.</li>
-    <li>Reading notes on spatial dependence.</li>
-    <li>Technical notes on statistical methodology.</li>
-    <li>Short expository notes related to imaging and spatial data.</li>
-  </ul>
+  {courses.map((course) => (
+    <section id={course.id} aria-labelledby={`${course.id}-title`}>
+      <h2 id={`${course.id}-title`}>{course.code} — {course.title}</h2>
+      <p>
+        <a href={course.pdf}>Complete notes (PDF)</a>
+        {` · ${course.pages} pages`}
+      </p>
+      <details>
+        <summary>Chapters ({course.chapters.length})</summary>
+        <ol>
+          {course.chapters.map((chapter) => (
+            <li>
+              <a href={`${course.pdf}#page=${chapter.page}`}>
+                {chapter.title}
+              </a>
+              <span class="chapter-page">{` (p. ${chapter.pageLabel})`}</span>
+            </li>
+          ))}
+        </ol>
+      </details>
+    </section>
+  ))}
 
   <div class="footer">
     <hr />
     <p><a href="/">Back to home page</a></p>
   </div>
 </AcademicLayout>
+
+<style>
+  summary {
+    cursor: pointer;
+    width: fit-content;
+  }
+
+  ol {
+    margin: 10px 0 18px;
+    padding-left: 1.8em;
+  }
+
+  .chapter-page {
+    white-space: nowrap;
+  }
+</style>
